@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    background-image: linear-gradient(#DD5E89,#F7BB97);
+    width: 300px;
+    height: 300px;
+    margin-top: 250px;
+    border-radius: 10px;
+}
+
+.search {
+    margin: 10px;
+}
+
+.searchbox {
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-top: 100px;
+    font-family: "Roboto", serif;
+}
+
+.city {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.temp {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.minmax {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 50px;
+}
