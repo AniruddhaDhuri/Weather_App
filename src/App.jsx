@@ -38,7 +38,7 @@ const weatherData = async() =>{
   !data ? (
     <p className='error'>No data found.</p>
   ) :(
-    <div>
+    <div className='main'>
 <div className='city'>
         <h1>{search}</h1>
       </div>
